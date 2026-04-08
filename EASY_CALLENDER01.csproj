@@ -1,0 +1,91 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <EmbeddedResource Include="FILES\EXCEL\EXCEL_EMBEDDED\dog_breads.csv" />
+    <EmbeddedResource Include="FILES\EXTERNAL\GGUF\GGUF_EMBEDDED\GGUF_EMBEDDED01.gguf" />
+    <EmbeddedResource Include="FILES\EXTERNAL\GGUF\GGUF_LOCAL\text_to_text_local01.gguf" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\cashapp01.jpg" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\cashapp02.png" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\cashapp03.png" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\default_group_face01.jpg" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\default_single_face01.jpg" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\default_single_face02.jpg" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\default_single_face03.jpg" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\Easy Callender_page_1.jpeg" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\EYE_ICON01.png" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\paypal01.png" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\paypal02.png" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\paypal03.png" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\venmo01.webp" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\venmo02.png" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\venmo03.png" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\zelleimage01.png" />
+    <EmbeddedResource Include="FILES\IMAGES\IMAGES_EMBEDDED\zelleimages02.png" />
+    <EmbeddedResource Include="FILES\JSON\JSON_EMBEDDED\GMAIL01.json" />
+    <EmbeddedResource Include="FILES\PDF\PDF_EMBEDDED\Book_of_Jasher.pdf" />
+    <EmbeddedResource Include="FILES\PDF\PDF_EMBEDDED\book_of_judith.pdf" />
+    <EmbeddedResource Include="FILES\PDF\PDF_EMBEDDED\Dead_Sea_Scrolls.pdf" />
+    <EmbeddedResource Include="FILES\PDF\PDF_EMBEDDED\The_Book_of_Enoch.pdf" />
+    <EmbeddedResource Include="FILES\PDF\PDF_EMBEDDED\The_Book_of_Jubilees.pdf" />
+    <EmbeddedResource Include="FILES\PDF\PDF_EMBEDDED\The_Book_of_TOB.pdf" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\Admin.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\API.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\Chemistry.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\Chemistry01.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\Client_Textfile01.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\cloudinary_com.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\GMAIL_CREDENTIAL.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\hairstyle_info_01.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\hairstyle_info_02.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\Language_Abbreviation.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\Language_Name.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\Sql_info01.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\The_Bible_KJV.txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\The_Book_of_Enoch..txt" />
+    <EmbeddedResource Include="FILES\TEXT\TEXT_EMBEDDED\The_Book_of_Jubilees.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Azure.Storage.Blobs" Version="12.27.0" />
+	  <PackageReference Include="CommunityToolkit.Maui" Version="14.0.1" />
+	  <PackageReference Include="Filepicker" Version="1.1.3" />
+	  <PackageReference Include="Google.Apis.Admin.Directory.directory_v1" Version="1.73.0.4075" />
+	  <PackageReference Include="Google.Apis.Auth" Version="1.73.0" />
+	  <PackageReference Include="Google.Apis.Gmail.v1" Version="1.73.0.4029" />
+	  <PackageReference Include="LLamaSharp" Version="0.26.0" />
+	  <PackageReference Include="LLamaSharp.Backend.Cpu" Version="0.26.0" />
+	  <PackageReference Include="LLamaSharp.Backend.Cuda12" Version="0.26.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.3.9" />
+	  <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.51" />
+	  <PackageReference Include="Microsoft.Win32" Version="2.0.1" />
+	  <PackageReference Include="NAudio" Version="2.3.0" />
+	  <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+	  <PackageReference Include="LLamaSharp.Backend.Cpu.Android" Version="0.26.0" />
+	  <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.5" />
+	  <PackageReference Include="CloudinaryDotNet" Version="1.28.0" />
+	  <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+	  <PackageReference Include="PdfPig" Version="0.1.14" />
+	  <PackageReference Include="System.Speech" Version="10.0.5" />
+	  <PackageReference Include="Whisper.net" Version="1.9.0" />
+	  <PackageReference Include="Whisper.net.Runtime" Version="1.9.0" />
+	  <PackageReference Include="Xamarin.Plugin.FilePicker" Version="2.1.41" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TEMPLATE\CONSOLE_TEMPLATE\" />
+    <Folder Include="TEMPLATE\MOBILE_TEMPLATE\EDITOR\EDITOR_ANIMATION\" />
+    <Folder Include="TEMPLATE\MOBILE_TEMPLATE\IMAGE\IMAGE_ANIMATION\" />
+    <Folder Include="TEMPLATE\MOBILE_TEMPLATE\XML\" />
+    <Folder Include="TEMPLATE\WEB_TEMPLATE\" />
+  </ItemGroup>
+
+</Project>
