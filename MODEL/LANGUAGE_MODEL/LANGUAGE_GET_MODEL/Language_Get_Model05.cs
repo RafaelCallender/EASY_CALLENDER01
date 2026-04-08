@@ -1,0 +1,12 @@
+﻿
+namespace EASY_CALLENDER01.MODEL.LANGUAGE_MODEL.LANGUAGE_GET_MODEL
+{
+    internal class Language_Get_Model05
+    {
+        public class Root
+        {
+            public string code { get; set; }=string.Empty;
+            public string language { get; set; } = string.Empty;
+        }
+    }
+}
