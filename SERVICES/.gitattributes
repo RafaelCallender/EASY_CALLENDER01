@@ -1,0 +1,2 @@
+* filter=lfs diff=lfs merge=lfs -text
+SERVICES/** filter=lfs diff=lfs merge=lfs -text
